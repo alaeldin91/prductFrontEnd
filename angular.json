@@ -25,9 +25,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "src/bootstrap/dist/css/bootstrap.min.css",
+
+              "node_modules/datatables.net-dt/css/jquery.dataTables.min.css"
             ],
-            "scripts": []
+
+            "scripts": [
+              "src/vendor/jquery-3.6.0.min.js",
+              "src/vendor/jquery-3.6.0.slim.min.js",
+              "src/bootstrap/dist/js/bootstrap.min.js",
+                "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/datatables.net/js/jquery.dataTables.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -87,12 +98,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+             
             ],
-            "scripts": []
+            "scripts": [
+             
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1eb625da-c49b-454c-baff-89f611f0c390"
   }
 }
